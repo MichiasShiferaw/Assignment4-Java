@@ -21,3 +21,8 @@ public class A4 {
 		}else {
 			user_input1.close();
 			return null;
+		}
+		user_input1.close();
+		return file_name1;
+				
+		}
