@@ -41,3 +41,10 @@ public class A4 {
 		//word= "This#string%contains^special*characters&.";   
 		//word = word.replaceAll("[^a-zA-Z0-9]", " ");
 		word = word.replaceAll("[^a-zA-Z]+"," ").toLowerCase();
+		//String[] words = word.replaceAll("[^a-zA-Z ]", "").toLowerCase().split("\\s+");
+		System.out.println(word);
+		//word.replaceAll("([A-Z])", "_$1").toLowerCase().split(" "); 
+		//System.out.println(word);
+		return word;
+		
+	}
