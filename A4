@@ -26,3 +26,13 @@ public class A4 {
 		return file_name1;
 				
 		}
+				
+	public static String get_file_name() throws IOException {
+		
+		String file_name=null;
+		do {
+			file_name=is_valid_file_name();
+		} while (file_name==null);
+		return file_name;
+		
+	}
