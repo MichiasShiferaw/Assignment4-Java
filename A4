@@ -11,3 +11,13 @@ public class A4 {
 
 
 	public static String is_valid_file_name() throws IOException{
+		String file_name1= null;
+		Scanner user_input1 = new Scanner( System.in );
+		System.out.println("Enter the name of the file: ");
+		file_name1= (user_input1.next().strip()	);
+		File f = new File(file_name1);
+		if (f.exists()) {
+			System.out.println(("Hi"));
+		}else {
+			user_input1.close();
+			return null;
