@@ -43,3 +43,11 @@ public class A4 {
 		return word;
 		
 	}
+
+	public static boolean test_letters(String w1, String w2) {
+		char[] chars1 = w1.toCharArray();
+		char[] chars2 = w2.toCharArray();
+
+
+		
+	}
