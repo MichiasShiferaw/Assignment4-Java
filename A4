@@ -56,3 +56,8 @@ public class A4 {
 	public static List<String> create_clean_sorted_noduplicates_list(String s){
 		String s1= clean_word(s);
 		List<String>No_dup=new ArrayList<String>();
+		String str[]= s1.split(" ");
+		No_dup=Arrays.asList(str);
+		return No_dup;
+		
+	}
