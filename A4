@@ -47,7 +47,7 @@ public class A4 {
 	public static boolean test_letters(String w1, String w2) {
 		char[] chars1 = w1.toCharArray();
 		char[] chars2 = w2.toCharArray();
-
-
-		
+		Arrays.sort(chars1);
+		Arrays.sort(chars2);
+		return Arrays.equals(chars1, chars2);
 	}
