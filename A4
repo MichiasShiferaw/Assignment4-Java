@@ -70,3 +70,8 @@ public class A4 {
 	    		ang.add(wordbook.get(j));
 	    	}
 	    }
+		//String s1= clean_word(s);
+	    System.out.println(ang);
+		return wordbook;
+		
+	}
