@@ -88,5 +88,12 @@ public class A4 {
 			
 	}
 	public static List<String> k_anagram(List<String>l, List<Integer>anagcount, int k){
-	
+		List<String> val_of_anag = new ArrayList<String>();
+		for (int i = 0 ; i < anagcount.size() ; i++) {
+			if (anagcount.get(i)==k){
+				val_of_anag.add(l.get(i));
+			}
+		}
+		return val_of_anag;
+		
 	}
