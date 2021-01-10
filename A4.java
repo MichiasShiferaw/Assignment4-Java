@@ -79,5 +79,11 @@ public class A4 {
 
 	
 	public static List<Integer> count_anagrams(List<String>l, List<String>wordbook){
-	
+		List<Integer> num_of_ang = new ArrayList<Integer>();
+		for(String j : l) {
+			int val= ((word_anagrams(j,wordbook)).size()-1);
+			num_of_ang.add(val);
+		}
+		return num_of_ang;
+			
 	}
