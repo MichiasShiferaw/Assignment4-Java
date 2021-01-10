@@ -76,3 +76,8 @@ public class A4 {
 		}
 		return ang;		
 	}
+
+	
+	public static List<Integer> count_anagrams(List<String>l, List<String>wordbook){
+	
+	}
