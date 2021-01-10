@@ -87,3 +87,6 @@ public class A4 {
 		return num_of_ang;
 			
 	}
+	public static List<String> k_anagram(List<String>l, List<Integer>anagcount, int k){
+	
+	}
