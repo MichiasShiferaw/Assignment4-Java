@@ -69,13 +69,10 @@ public class A4 {
 
 	public static List<String> word_anagrams(String word, List<String>wordbook){
 		List<String>ang=new ArrayList<String>();
-	    for (int j = 0;j < wordbook.size();j++) {
-	    	if (test_letters(word,wordbook.get(j))|| (word!=wordbook.get(j))){
-	    		ang.add(wordbook.get(j));
-	    	}
-	    }
-		//String s1= clean_word(s);
-	    System.out.println(ang);
-		return wordbook;
-		
+		for(String j : wordbook) {
+			if ((test_letters(word,j)== true)&& (word!=j)){
+	    			ang.add(j);
+	    		}
+		}
+		return ang;		
 	}
