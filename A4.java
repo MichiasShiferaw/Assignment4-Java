@@ -99,6 +99,7 @@ public class A4 {
 	}
 	public static List<String> max_anagram(List<String>l, List<Integer>anagcount){
 		List<Integer> new_anagcount = new ArrayList<Integer>(anagcount); 
-
+		Collections.sort(new_anagcount, Collections.reverseOrder());
+		return k_anagram(l, anagcount, new_anagcount.get(0));
 
 	}
