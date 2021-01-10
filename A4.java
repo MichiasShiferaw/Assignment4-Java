@@ -98,5 +98,7 @@ public class A4 {
 		
 	}
 	public static List<String> max_anagram(List<String>l, List<Integer>anagcount){
+		List<Integer> new_anagcount = new ArrayList<Integer>(anagcount); 
+
 
 	}
